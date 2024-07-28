@@ -8,5 +8,5 @@ module.exports = {
 }
 
 eventEmitter.on('vendingMachines', function(data) {
-    console.log('xxx', data);
+    console.log('new notification', data);
 });
